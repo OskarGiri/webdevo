@@ -4,6 +4,7 @@ const cors = require ('cors');
 const bodyParser = require ('body-parser');
 
 const sequelize = require("./DB/bd.js")
+const testroute = require('./routes/testroute.js')
 
 //  Creating a server
 const app = express();
